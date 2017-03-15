@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+	<head>
+		<title>Formulário de contato com PHPMailer</title>
+		<meta charset="UTF-8" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		
+		<meta name="author" content="Roosevelt Franklin">       
+	</head>
+
+	<body>
+		<section id="contato">
+			<div class="container">
+				<h1 class="item_left">Formulário de Contato</h1>
+				<!-- Início do formulário (Você pode acrescentar ou remover campos conforme a sua necessidade) -->
+				<form action="email.php" method="post" id="formulario">
+					<label for="nome">Nome</label><br>
+					<input type="text" name="nome" id="nome" placeholder="Digite seu nome"><br>
+					<label for="telefone">Telefone</label><br>
+					<input type="text" name="telefone" id="telefone" placeholder="Digite seu telefone para contato"><br>
+					<label for="mensagem">Mensagem</label><br>
+					<textarea name="mensagem" id="mensagem" rows="9" placeholder="Digite sua mensagem"></textarea><br>
+					<input type="submit" name="Enviar Mensagem" value="Enviar Mensagem" />
+				</form>
+			</div>
+		</section>
+	</body>
+</html>
