@@ -1,2 +1,2 @@
-# contactFormGmail
-Contact Form for Gmail / Formulário de Contato para GMail
+# Formulário de Contato em PHP para Gmail
+Código PHP para envio de contato pelo site.
